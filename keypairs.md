@@ -18,4 +18,7 @@ Syntax: openstack keypair MODE OPTIONS
 
 Generate a Key Pair with the Dashboard
 -----------------------------------------------
+<li> Select --> Project --> click on Keypairs and Press the button --> Create key pair</li>
 <img src='https://github.com/blrk/OpenStack-labs.io/blob/master/Screenshot%20from%202019-09-13%2009-36-09.png'>
+<li>Then the Folowing window appreas provide necessary values as shown </li>
+<img src='https://github.com/blrk/OpenStack-labs.io/blob/master/Screenshot_2019-09-13_09-54-47.png'>
