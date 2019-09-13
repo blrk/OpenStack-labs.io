@@ -1,8 +1,9 @@
 # OpenStack-labs.io
 What are Key Pairs?
 -----------------------------------------------
-Combination of SSH Public/Private keys
-Public key can be injected into instances when instantiated (must be stored in OpenStack Environment)
+<li>Combination of SSH Public/Private keys </li>
+<li>Public key can be injected into instances when instantiated (must be stored in OpenStack Environment) </li>
+
 It allows root SSH access to instances as root (Note : root password is usually disabled)
 key pairs can be generated in OpenStack
 available existing keys can be uploaded 
