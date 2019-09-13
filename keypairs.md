@@ -22,3 +22,7 @@ Generate a Key Pair with the Dashboard
 <img src='https://github.com/blrk/OpenStack-labs.io/blob/master/Screenshot%20from%202019-09-13%2009-36-09.png'>
 <li>Then the Folowing window appreas provide necessary values as shown </li>
 <img src='https://github.com/blrk/OpenStack-labs.io/blob/master/Screenshot_2019-09-13_09-54-47.png'>
+<li> After providing the necessary values click the +Create Key Pair button </li>
+<li>Then a key will be downloaded automatically save the key and keep it safe </li>
+<li> if the key generation is sucessfull you will be able see it on the dashboard </li>
+<img src='https://github.com/blrk/OpenStack-labs.io/blob/master/Screenshot_2019-09-13_10-03-13.png'>
