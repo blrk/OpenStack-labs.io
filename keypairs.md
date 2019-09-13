@@ -18,4 +18,4 @@ Syntax: openstack keypair MODE OPTIONS
 
 Generate a Key Pair with the Dashboard
 -----------------------------------------------
-
+<img src='https://github.com/blrk/OpenStack-labs.io/blob/master/Screenshot%20from%202019-09-13%2009-36-09.png'>
