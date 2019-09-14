@@ -26,3 +26,16 @@ Manage projects, users, and roles
   <li>Before you can delete a user account, you must remove the user account from its primary project.</li>
 </uL>
 <a href="https://docs.openstack.org/keystone/pike/admin/cli-manage-projects-users-and-roles.html">More about project visit this link</a>
+
+Working with Projects
+--------------------------
+List projects
+-------------
+<pre>
+openstack project list
+</pre>
+Create a project
+-------------------
+<pre>
+openstack project create --description 'application development' --domain Faculty app-development
+</pre>
