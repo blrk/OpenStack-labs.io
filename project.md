@@ -14,9 +14,9 @@ Manage projects, users, and roles
 
 <li>During cloud set up, the operator defines at least one project, user, and role.</li>
 <ul><b>What you can do?</b>
-  <li>You can add, update, and delete projects and users</li> 
-  <li>assign users to one or more projects</li>
-  <li>and change or remove the assignment.</li>
-  <li>enable or temporarily disable a project or user, update that project or user.</li>
-  <li>You can also change quotas at the project level.</li>
+<li>You can add, update, and delete projects and users</li> 
+<li>assign users to one or more projects</li>
+<li>and change or remove the assignment.</li>
+<li>enable or temporarily disable a project or user, update that project or user.</li>
+<li>You can also change quotas at the project level.</li>
 </ul>  
