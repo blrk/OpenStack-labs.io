@@ -21,7 +21,6 @@ Manage projects, users, and roles
 <li>enable or temporarily disable a project or user, update that project or user.</li>
 <li>You can also change quotas at the project level.</li>
 </ul>
-<li> 
 <ul>
 <b>Want to delete an user account</b>
   <li>Before you can delete a user account, you must remove the user account from its primary project.</li>
