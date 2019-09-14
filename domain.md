@@ -76,7 +76,36 @@ tux@OpenStack:~$ openstack domain list | grep test
 
 nothing will be printed
 </pre>
+view the list of users in a domain
+---------------------------------------
+<pre>
+tux@OpenStack:~$ openstack user list --domain Faculty
 
+nothing will be printed (no users created yet)
+</pre>
+Domain user creation 
+-----------------------
+<pre>
+tux@OpenStack:~$ openstack user create --domain Faculty --description "Domain admin" --password-prompt blrk
+User Password:
+Repeat User Password:
++---------------------+----------------------------------+
+| Field               | Value                            |
++---------------------+----------------------------------+
+| description         | Domain admin                     |
+| domain_id           | 1390944379d146fab75d7505359049c8 |
+| enabled             | True                             |
+| id                  | 62389dcd21b94148be82eb1432616cb0 |
+| name                | blrk                             |
+| options             | {}                               |
+| password_expires_at | None                             |
++---------------------+----------------------------------+
+</pre>
+add role to the domain user (admin)
+---------------------------------------
+<pre>
+tux@OpenStack:~$ openstack role add  --domain Faculty --user blrk admin
 
-
+Note(nothing will be printed)
+</pre>
 
