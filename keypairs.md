@@ -95,3 +95,14 @@ tux@OpenStack:~$ ls .ssh/
 id_dsa  id_dsa.pub  id_rsa  id_rsa.pub  known_hosts
 </pre>
 
+import keypair 
+------------------
+<li>In the OPenStack dashboard select Project --> Compute --> Keypairs then clic on the +Import Public Key button</li>
+Run the following command in the terminal to get the keypair
+------------------------------------------------------------
+<pre>
+  tux@OpenStack:~$ cat .ssh/id_rsa.pub
+</pre>
+<li> copy the key (select the output --> right click and copy) </li>
+<img src='https://github.com/blrk/OpenStack-labs.io/blob/master/Screenshot_2019-09-14_16-02-28.png'>
+<li> After pasting the key click the button Import public key</li>
