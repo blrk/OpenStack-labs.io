@@ -26,3 +26,12 @@ Generate a Key Pair with the Dashboard
 <li>Then a key will be downloaded automatically save the key and keep it safe </li>
 <li> if the key generation is sucessfull you will be able see it on the dashboard </li>
 <img src='https://github.com/blrk/OpenStack-labs.io/blob/master/Screenshot_2019-09-13_10-03-13.png'>
+
+Openstack Keypair commands
+---------------------------------
+<pre>
+  keypair create
+  keypair delete
+  keypair list
+  keypair show
+</pre>
