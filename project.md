@@ -48,7 +48,7 @@ openstack project set PROJECT_ID --disable
 <b>Enable a Project</b>
 <pre>
 openstack project set PROJECT_ID --enable
-<pre>
+</pre>
 <b>update the name of a project</b>
 <pre>
 openstack project set PROJECT_ID --name project-new
