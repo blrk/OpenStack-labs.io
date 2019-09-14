@@ -76,4 +76,31 @@ openstack user create \
 --project app-development \
 --domain Faculty \
 app-admin
+
+openstack user create \
+--email app-dev1@karunya.edu \
+--password-prompt \
+--project app-development \
+--domain Faculty \
+app-dev1
 </pre>
+
+<b>Addding role to the users</b>
+<pre>
+openstack role add \
+--project app-development \
+--user app-admin \
+admin
+
+openstack role add \
+--project app-development \
+--user app-dev1 \
+Member
+</pre>
+
+<b>List the users of a dmonain </b>
+<pre>
+openstack user list --domain Faculty
+</pre>
+
+  
