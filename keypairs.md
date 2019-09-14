@@ -45,5 +45,53 @@ tux@OpenStack:~$ openstack keypair list
 +------------+-------------------------------------------------+
 | gaming1738 | b4:d6:5a:59:3c:66:d2:57:47:1e:da:f9:21:24:4d:d3 |
 +------------+-------------------------------------------------+
-
 </pre>
+
+Create 2 keys (RSA and DSA) in the terminal
+<pre>
+tux@OpenStack:~$ ssh-keygen -t rsa
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/tux/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/tux/.ssh/id_rsa.
+Your public key has been saved in /home/tux/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:IBmMPLPHW3VmaLGoDFdhEImWqpl6vbLl7GWnX4PfTPk tux@OpenStack
+The key's randomart image is:
++---[RSA 2048]----+
+| . =+++..o       |
+|  O o= .+.+      |
+| o.=+ oo.+       |
+|. .+oo..         |
+|.o .oo  S        |
+|+   .    .   .   |
+|.  .. o o o o    |
+|. o+.o o o = .   |
+| ..+=.... . o E  |
++----[SHA256]-----+
+tux@OpenStack:~$ ssh-keygen -t dsa
+Generating public/private dsa key pair.
+Enter file in which to save the key (/home/tux/.ssh/id_dsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/tux/.ssh/id_dsa.
+Your public key has been saved in /home/tux/.ssh/id_dsa.pub.
+The key fingerprint is:
+SHA256:Hdq8WvMpeyBMmKyI1rX+1e2Om3uuLUcG5/PevLY28qU tux@OpenStack
+The key's randomart image is:
++---[DSA 1024]----+
+|                 |
+|                 |
+|     . o  .      |
+|     .+ .= o .   |
+| ......oS + +    |
+|......  o o..=   |
+|.   .    o+oo.o .|
+|     .  .o.+*= Bo|
+|      ... .X%=E=*|
++----[SHA256]-----+
+tux@OpenStack:~$ ls .ssh/
+id_dsa  id_dsa.pub  id_rsa  id_rsa.pub  known_hosts
+</pre>
+
