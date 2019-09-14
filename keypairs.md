@@ -35,3 +35,15 @@ Openstack Keypair commands
   keypair list
   keypair show
 </pre>
+
+How to list the keypairs
+-------------------------------
+<pre>
+tux@OpenStack:~$ openstack keypair list
++------------+-------------------------------------------------+
+| Name       | Fingerprint                                     |
++------------+-------------------------------------------------+
+| gaming1738 | b4:d6:5a:59:3c:66:d2:57:47:1e:da:f9:21:24:4d:d3 |
++------------+-------------------------------------------------+
+
+</pre>
