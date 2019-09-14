@@ -24,15 +24,34 @@ Did you mean one of these?
 
 domain create
 <pre>
-tux@OpenStack:~$ openstack domain create faculty
+tux@OpenStack:~$ openstack domain create --description "Domain of CSE Faculty" Faculty
 +-------------+----------------------------------+
 | Field       | Value                            |
 +-------------+----------------------------------+
-| description |                                  |
+| description | Domain of CSE Faculty            |
 | enabled     | True                             |
-| id          | 340bc5053c8c4de3a71df9e54b3c0a77 |
-| name        | faculty                          |
+| id          | 1390944379d146fab75d7505359049c8 |
+| name        | Faculty                          |
 | tags        | []                               |
 +-------------+----------------------------------+
 </pre>
-
+view information about the domain
+-----------------------------------
+<pre>
+tux@OpenStack:~$ openstack domain list | grep Faculty
+| 1390944379d146fab75d7505359049c8 | Faculty   | True    | Domain of CSE Faculty |
+</pre>
+details about the domain
+------------------------
+<pre>
+tux@OpenStack:~$ openstack domain show Faculty
++-------------+----------------------------------+
+| Field       | Value                            |
++-------------+----------------------------------+
+| description | Domain of CSE Faculty            |
+| enabled     | True                             |
+| id          | 1390944379d146fab75d7505359049c8 |
+| name        | Faculty                          |
+| tags        | []                               |
++-------------+----------------------------------+
+</pre>
