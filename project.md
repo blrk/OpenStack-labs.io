@@ -13,10 +13,17 @@ Manage projects, users, and roles
 <li>You can manage projects, users, and roles independently from each other.</li>
 
 <li>During cloud set up, the operator defines at least one project, user, and role.</li>
-<ul><b>What you can do?</b>
+<ul>
+<b>What you can do?</b>
 <li>You can add, update, and delete projects and users</li> 
 <li>assign users to one or more projects</li>
 <li>and change or remove the assignment.</li>
 <li>enable or temporarily disable a project or user, update that project or user.</li>
 <li>You can also change quotas at the project level.</li>
-</ul>  
+</ul>
+<li> 
+<ul>
+<b>Want to delete an user account</b>
+  <li>Before you can delete a user account, you must remove the user account from its primary project.</li>
+</uL>
+<a href="https://docs.openstack.org/keystone/pike/admin/cli-manage-projects-users-and-roles.html">More about project visit this link</a>
