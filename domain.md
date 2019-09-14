@@ -55,3 +55,24 @@ tux@OpenStack:~$ openstack domain show Faculty
 | tags        | []                               |
 +-------------+----------------------------------+
 </pre>
+delete a domain 
+-----------------
+<pre>
+tux@OpenStack:~$ openstack domain delete test
+Failed to delete domain with name or ID 'test': Cannot delete a domain that is enabled, please disable it first. (HTTP 403) (Request-ID: req-7966c148-ee7b-44ee-a026-2abcea318469)
+1 of 1 domains failed to delete.
+</pre>
+Set domain properties
+---------------------
+<li> diable a domain</li>
+<pre>
+tux@OpenStack:~$ openstack domain set --disable test
+<li>Delete a domian </li>
+tux@OpenStack:~$ openstack domain delete test
+tux@OpenStack:~$ openstack domain list | grep test
+nothing will be printed
+</pre>
+
+
+
+
