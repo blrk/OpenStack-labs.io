@@ -67,9 +67,13 @@ Set domain properties
 <li> diable a domain</li>
 <pre>
 tux@OpenStack:~$ openstack domain set --disable test
+
 <li>Delete a domian </li>
+
 tux@OpenStack:~$ openstack domain delete test
+
 tux@OpenStack:~$ openstack domain list | grep test
+
 nothing will be printed
 </pre>
 
