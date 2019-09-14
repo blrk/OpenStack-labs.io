@@ -95,7 +95,7 @@ tux@OpenStack:~$ ls .ssh/
 id_dsa  id_dsa.pub  id_rsa  id_rsa.pub  known_hosts
 </pre>
 
-import keypair 
+import keypair (dashboard)
 ------------------
 <li>In the OPenStack dashboard select Project --> Compute --> Keypairs then clic on the +Import Public Key button</li>
 Run the following command in the terminal to get the keypair
@@ -106,3 +106,28 @@ Run the following command in the terminal to get the keypair
 <li> copy the key (select the output --> right click and copy) </li>
 <img src='https://github.com/blrk/OpenStack-labs.io/blob/master/Screenshot_2019-09-14_16-02-28.png'>
 <li> After pasting the key click the button Import public key</li>
+
+import keypair (command line)
+----------------------------------
+<pre>
+tux@OpenStack:~$ openstack keypair  create --public-key .ssh/id_dsa.pub dsa-key
++-------------+-------------------------------------------------+
+| Field       | Value                                           |
++-------------+-------------------------------------------------+
+| fingerprint | 08:83:21:43:af:f6:1d:13:92:7f:ed:1e:ae:db:09:de |
+| name        | dsa-key                                         |
+| user_id     | b93ea27dac5f4d958dbdd9dcfcd6f302                |
++-------------+-------------------------------------------------+
+</pre>
+<li>List the key pair </li>
+<pre>
+tux@OpenStack:~$ openstack keypair list
++------------+-------------------------------------------------+
+| Name       | Fingerprint                                     |
++------------+-------------------------------------------------+
+| dsa-key    | 08:83:21:43:af:f6:1d:13:92:7f:ed:1e:ae:db:09:de |
+| gaming1738 | b4:d6:5a:59:3c:66:d2:57:47:1e:da:f9:21:24:4d:d3 |
+| rsa-key    | fe:35:7d:5a:7e:2d:0f:ef:63:4f:6f:2e:1f:ef:f0:a6 |
++------------+-------------------------------------------------+
+</pre>
+
