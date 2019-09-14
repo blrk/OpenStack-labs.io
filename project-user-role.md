@@ -61,3 +61,19 @@ openstack project show PROJECT_ID
 <pre>
 openstack project delete PROJECT_ID
 </pre>
+Users Management
+-------------------------
+<b>List users</b>
+<pre>
+openstack user list
+</pre>
+
+<b>Create a user</b>
+<pre>
+openstack user create \
+--email app-admin@karunya.edu \
+--password-prompt \
+--project app-development \
+--domain Faculty \
+app-admin
+</pre>
