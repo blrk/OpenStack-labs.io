@@ -81,7 +81,7 @@ view the list of users in a domain
 <pre>
 tux@OpenStack:~$ openstack user list --domain Faculty
 
-nothing will be printed (no users created yet)
+<li>nothing will be printed (no users created yet)</li>
 </pre>
 Domain user creation 
 -----------------------
