@@ -39,3 +39,25 @@ Create a project
 <pre>
 openstack project create --description 'application development' --domain Faculty app-development
 </pre>
+Update a project
+----------------
+<b>Diable a project</b>
+<pre>
+openstack project set PROJECT_ID --disable
+</pre>
+<b>Enable a Project</b>
+<pre>
+openstack project set PROJECT_ID --enable
+<pre>
+<b>update the name of a project</b>
+<pre>
+openstack project set PROJECT_ID --name project-new
+</pre>
+<b>View project details</b>
+<pre>
+openstack project show PROJECT_ID
+</pre>
+<b>Delete a project</b>
+<pre>
+openstack project delete PROJECT_ID
+</pre>
