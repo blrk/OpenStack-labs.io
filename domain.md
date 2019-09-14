@@ -108,4 +108,6 @@ tux@OpenStack:~$ openstack role add  --domain Faculty --user blrk admin
 
 Note(nothing will be printed)
 </pre>
-
+login using the credential created
+---------------------------------------
+<img src='https://github.com/blrk/OpenStack-labs.io/blob/master/Screenshot_2019-09-14_17-31-09.png'>
