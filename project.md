@@ -13,7 +13,7 @@ Manage projects, users, and roles
 <li>You can manage projects, users, and roles independently from each other.</li>
 
 <li>During cloud set up, the operator defines at least one project, user, and role.</li>
-<ul>What you can do?
+<ul><b>What you can do?</b>
   <li>You can add, update, and delete projects and users</li> 
   <li>assign users to one or more projects</li>
   <li>and change or remove the assignment.</li>
