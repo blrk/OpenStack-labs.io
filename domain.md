@@ -111,3 +111,29 @@ Note(nothing will be printed)
 login using the credential created
 ---------------------------------------
 <img src='https://github.com/blrk/OpenStack-labs.io/blob/master/Screenshot_2019-09-14_17-31-09.png'>
+<li> After login you will the the domain admin dashboard</li>
+<img src='https://github.com/blrk/OpenStack-labs.io/blob/master/Screenshot_2019-09-14_17-38-57.png'>
+<li> Look at project link is missing in the left pane</li>
+create a project
+-----------------
+<pre>
+tux@OpenStack:~$ openstack project create --domain Faculty --description "Blockchain development" blockchain
++-------------+----------------------------------+
+| Field       | Value                            |
++-------------+----------------------------------+
+| description | Blockchain development           |
+| domain_id   | 1390944379d146fab75d7505359049c8 |
+| enabled     | True                             |
+| id          | ed0b2560f1a74667b94abf67c5e9a512 |
+| is_domain   | False                            |
+| name        | blockchain                       |
+| parent_id   | 1390944379d146fab75d7505359049c8 |
+| tags        | []                               |
++-------------+----------------------------------+
+</pre>
+add project access to the domain admin
+---------------------------------------
+<li> do it using the dashboard</li>
+<img src='https://github.com/blrk/OpenStack-labs.io/blob/master/Screenshot_2019-09-14_17-56-48.png'>
+<li> logout and login again you will get the project tab back and able to access apis<li>
+<img src='https://github.com/blrk/OpenStack-labs.io/blob/master/Screenshot_2019-09-14_18-06-16.png'>
