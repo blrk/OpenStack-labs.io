@@ -83,7 +83,7 @@ openstack user create \
 --project app-development \
 --domain Faculty \
 app-dev1
-
+<hr>
 openstack user create \
 --email app-dev2@karunya.edu \
 --password-prompt \
