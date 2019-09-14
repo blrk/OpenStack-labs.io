@@ -76,7 +76,7 @@ openstack user create \
 --project app-development \
 --domain Faculty \
 app-admin
------------------------------------------------
+<hr>
 openstack user create \
 --email app-dev1@karunya.edu \
 --password-prompt \
