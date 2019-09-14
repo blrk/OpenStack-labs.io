@@ -83,6 +83,13 @@ openstack user create \
 --project app-development \
 --domain Faculty \
 app-dev1
+
+openstack user create \
+--email app-dev2@karunya.edu \
+--password-prompt \
+--project app-development \
+--domain Faculty \
+app-dev2
 </pre>
 
 <b>Addding role to the users</b>
@@ -103,4 +110,50 @@ Member
 openstack user list --domain Faculty
 </pre>
 
-  
+<b>Update a user</b>
+<b>disable / enable a user account</b>
+<pre>
+openstack user set app-dev2 --disable
+
+openstack user set app-dev2 --enable
+</pre>
+
+<b>Delete a user</b>
+<pre>
+openstack user delete app-dev2
+</pre>
+
+Roles and role assignments
+-------------------------------
+<b>List available roles</b>
+<pre>
+openstack role list
+</pre>
+
+<b>Create a role</b>
+<pre>
+openstack role create db-admin
+
+openstack role list
+</pre>
+
+<b>Assign a role to a user</b>
+<pre>
+openstack role add --user app-admin --project TENANT_ID db-admin
+</pre>
+
+<b>Verify the role assignment</b>
+<pre>
+openstack role assignment list --user app-admin \
+  --project PROJECT_ID --names
+</pre>
+
+<b>View role details</b>
+<pre>
+openstack role show db-admin
+</pre>
+
+<b>Remove a role</b>
+<pre>
+openstack role remove --user app-admin --project TENANT_ID db-admin
+</pre>
