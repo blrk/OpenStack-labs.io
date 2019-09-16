@@ -52,3 +52,38 @@ Design Principles
 <a href="https://docs.openstack.org/newton/install-guide-rdo/common/get-started-image-service.html">For more info Visit here (Image service overview) </a>
 </div>
 
+How to use Glance
+---------------------
+<li>list the images currently in the Glance server registry</li>
+<pre>
+openstack image list
+</pre>
+
+<li>import the cloud image into Glance</li>
+<pre>
+openstack image create \
+--public \
+--container-format bare \
+--disk-format qcow2 \
+--min-disk 2 \
+--min-ram 512 \
+--file PATH
+</pre>
+<li>display more information about the</li>
+<pre>
+  openstack image show SLES12SP1_IMAGE_ID
+</pre>
+
+<li>Add Additional Properties to an Image in Glance<li>
+<pre>
+openstack image set \
+--name SLES12-SP1 \
+--architecture x86_64 \
+--os-distro sles \
+--os-version 12.1 \
+SLES12SP1_IMAGE_ID
+</pre>
+
+<li>perform the tasks in OpenStack Dashboard</li>
+<li>Admin > System > Images</li>
+
