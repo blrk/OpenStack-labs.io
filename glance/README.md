@@ -102,7 +102,7 @@ openstack image create --public --container-format bare --disk-format qcow2 --mi
 | visibility       | public                                                                                                                                                                                     |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 </pre>
-<li>display more information about the</li>
+<li>display more information about the image</li>
 <pre>
   openstack image show SLES12SP1_IMAGE_ID
   <br>
@@ -178,7 +178,22 @@ tux@OpenStack:~$ openstack image show SLES12-SP1
 | visibility       | public                                                                                                                                                                                                                                                 |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 </pre>
-
+Delete an image 
+-----------------
+<pre>
+tux@OpenStack:~$ openstack image delete SLES12-SP1
+<br>
+tux@OpenStack:~$ openstack image list
++--------------------------------------+--------------------------+--------+
+| ID                                   | Name                     | Status |
++--------------------------------------+--------------------------+--------+
+| dc552613-d985-479f-840b-fc7bbfe5d715 | centos                   | active |
+| d659883d-5c2d-44f3-b26f-9fe512aeec95 | cirros-0.4.0-x86_64-disk | active |
++--------------------------------------+--------------------------+--------+
+</pre>
+<div align="right">
+<a href="https://docs.openstack.org/python-openstackclient/pike/cli/command-objects/image.html">Need to learn more about openstack image commands click here...</a>
+</div>
 <li>perform the tasks in OpenStack Dashboard</li>
 <li>Admin > System > Images</li>
 
