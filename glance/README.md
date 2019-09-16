@@ -2,6 +2,7 @@ Glance
 --------------
 <li>provides a service where users can upload and discover data assets that are meant to be used with other services</li>
 <li>currently includes images and metadata definitions</li>
+
 Images
 -------------
 <li>Glance image services include discovering, registering, and retrieving virtual machine (VM) images</li>
