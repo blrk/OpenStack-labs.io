@@ -196,6 +196,9 @@ tux@OpenStack:~$ openstack image list
 </div>
 <li>perform the tasks in OpenStack Dashboard</li>
 <li>Admin > System > Images</li>
+<img src="https://github.com/blrk/OpenStack-labs.io/blob/master/glance/img/Screenshot_2019-09-16_12-50-49.png">
+<br>
+<img src="https://github.com/blrk/OpenStack-labs.io/blob/master/glance/img/Screenshot_2019-09-16_12-56-51.png">
 
 Glance Troubleshooting
 --------------------------
