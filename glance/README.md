@@ -57,6 +57,13 @@ How to use Glance
 <li>list the images currently in the Glance server registry</li>
 <pre>
 openstack image list
+tux@OpenStack:~$ openstack image list
++--------------------------------------+--------------------------+--------+
+| ID                                   | Name                     | Status |
++--------------------------------------+--------------------------+--------+
+| dc552613-d985-479f-840b-fc7bbfe5d715 | centos                   | active |
+| d659883d-5c2d-44f3-b26f-9fe512aeec95 | cirros-0.4.0-x86_64-disk | active |
++--------------------------------------+--------------------------+--------+
 </pre>
 
 <li>import the cloud image into Glance</li>
@@ -67,7 +74,34 @@ openstack image create \
 --disk-format qcow2 \
 --min-disk 2 \
 --min-ram 512 \
---file PATH
+--file PATH image-name
+
+openstack image create --public --container-format bare --disk-format qcow2 --min-disk 2 --min-ram 512 --file /tmp/SLES12SP1-cloudimage.qcow2 sles12
+
++------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Field            | Value                                                                                                                                                                                      |
++------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| checksum         | fcdeb8b10730ac96bccc9a121ee030f4                                                                                                                                                           |
+| container_format | bare                                                                                                                                                                                       |
+| created_at       | 2019-09-16T06:55:32Z                                                                                                                                                                       |
+| disk_format      | qcow2                                                                                                                                                                                      |
+| file             | /v2/images/8535008e-74f7-4607-a657-3a04c7557997/file                                                                                                                                       |
+| id               | 8535008e-74f7-4607-a657-3a04c7557997                                                                                                                                                       |
+| min_disk         | 2                                                                                                                                                                                          |
+| min_ram          | 512                                                                                                                                                                                        |
+| name             | sles12                                                                                                                                                                                     |
+| owner            | 5a3a3f4958ad460f8afd065bb37f8a94                                                                                                                                                           |
+| properties       | os_hash_algo='sha512', os_hash_value='1d8eb3390e9544316da91be59db65033606449fa1c097a8dbcd720682807db32023e2ca7a8b0a0d0bb76a4e0d976bb96a94a27a5f9a6f3e16eee39215076bd59', os_hidden='False' |
+| protected        | False                                                                                                                                                                                      |
+| schema           | /v2/schemas/image                                                                                                                                                                          |
+| size             | 362847744                                                                                                                                                                                  |
+| status           | active                                                                                                                                                                                     |
+| tags             |                                                                                                                                                                                            |
+| updated_at       | 2019-09-16T06:55:35Z                                                                                                                                                                       |
+| virtual_size     | None                                                                                                                                                                                       |
+| visibility       | public                                                                                                                                                                                     |
++------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
 </pre>
 <li>display more information about the</li>
 <pre>
