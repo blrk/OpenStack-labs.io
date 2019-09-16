@@ -11,15 +11,23 @@ Images
 <li>simple filesystems</li>
 <li>object-storage systems like the OpenStack Swift project</li>
 
+Metadata Definitions
+------------------------
+<li>Glance hosts a metadefs catalog</li>
+<li>provides a way to programmatically determine various metadata key names and valid values that can be applied to OpenStack resources</li>
+
 Image Service Overview
 -------------------------
 <li>A number of periodic processes run on the OpenStack Image service to support caching</li>
 <li>Replication services ensure consistency and availability through the cluster</li>
 <li>Other periodic processes include auditors, updaters, and reapers</li>
-Metadata Definitions
-------------------------
-<li>Glance hosts a metadefs catalog</li>
-<li>provides a way to programmatically determine various metadata key names and valid values that can be applied to OpenStack resources</li>
+<b>OpenStack Image service includes the following components</b>
+<li><b>glance-api:</b>Accepts Image API calls for image discovery, retrieval, and storage</li>
+<li><b>glance-registry:</b>Stores, processes, and retrieves metadata about images. Metadata includes items such as size and type</li>
+<li><b></b></li>
+<li><b></b></li>
+<li><b></b></li>
+<li><b></b></li>
 
 Design Principles
 -----------------
