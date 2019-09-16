@@ -10,10 +10,12 @@ Images
 <b>Possible places to store VM images</b>
 <li>simple filesystems</li>
 <li>object-storage systems like the OpenStack Swift project</li>
+
+Image Service Overview
+-------------------------
 <li>A number of periodic processes run on the OpenStack Image service to support caching</li>
 <li>Replication services ensure consistency and availability through the cluster</li>
 <li>Other periodic processes include auditors, updaters, and reapers</li>
-
 Metadata Definitions
 ------------------------
 <li>Glance hosts a metadefs catalog</li>
