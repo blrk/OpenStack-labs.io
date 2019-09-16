@@ -7,6 +7,7 @@ Images
 -------------
 <li>Glance image services include discovering, registering, and retrieving virtual machine (VM) images</li>
 <li>Glance has a RESTful API that allows querying of VM image metadata as well as retrieval of the actual image</li>
+
 <b>Possible places to store VM images</b>
 <li>simple filesystems</li>
 <li>object-storage systems like the OpenStack Swift project</li>
@@ -21,11 +22,16 @@ Image Service Overview
 <li>A number of periodic processes run on the OpenStack Image service to support caching</li>
 <li>Replication services ensure consistency and availability through the cluster</li>
 <li>Other periodic processes include auditors, updaters, and reapers</li>
+
 <b>OpenStack Image service includes the following components</b>
 <li><b>glance-api:</b>Accepts Image API calls for image discovery, retrieval, and storage</li>
 <li><b>glance-registry:</b>Stores, processes, and retrieves metadata about images. Metadata includes items such as size and type</li>
-<li><b></b></li>
-<li><b></b></li>
+<li><b>Database:</b>Stores image metadata and you can choose your database depending on your preference. Most deployments use MySQL or SQLite</li>
+<li><b>Storage repository for image files:</b>Various repository types are supported</li>
+  <ul>
+    <li>normal file systems (or any filesystem mounted on the glance-api controller node)</li>
+    <li>Object Storage, RADOS block devices, VMware datastore, and HTTP</li>
+    <li>Note that some repositories will only support read-only usage</li>
 <li><b></b></li>
 <li><b></b></li>
 
