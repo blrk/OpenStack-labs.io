@@ -32,9 +32,13 @@ Image Service Overview
     <li>normal file systems (or any filesystem mounted on the glance-api controller node)</li>
     <li>Object Storage, RADOS block devices, VMware datastore, and HTTP</li>
     <li>Note that some repositories will only support read-only usage</li>
-<li><b></b></li>
-<li><b></b></li>
-
+  </ul>
+<li><b>Metadata definition service:</b>A common API for vendors, admins, services, and users to meaningfully define their own custom metadata</li> 
+  <ul>
+    <li>This metadata can be used on different types of resources like images, artifacts, volumes, flavors, and aggregates</li>
+    <li>A definition includes the new property’s key, description, constraints, and the resource types which it can be associated with</li>
+  </ul>
+  
 Design Principles
 -----------------
 <b>all OpenStack projects, is written with the following design guidelines in mind</b>
