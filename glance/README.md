@@ -24,5 +24,7 @@ Design Principles
 <li>Fault tolerant: Isolated processes avoid cascading failures</li>
 <li>Recoverable: Failures should be easy to diagnose, debug, and rectify</li>
 <li>Open standards: Be a reference implementation for a community-driven api</li>
-
+<div align="right">
 <a href="https://docs.openstack.org/glance/latest/">For more info visit here</a>
+</div>
+
