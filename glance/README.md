@@ -89,8 +89,7 @@ SLES12SP1_IMAGE_ID
 
 Glance Troubleshooting
 --------------------------
-<li>api.log -API service log file (handles all requests for the Glance service such as any request for access or modify an
-existing image or to create a new image)</li>
-<li>manage.log -glance-manage utility log file(manages the registry or catalog of available images and mappings between the entries in the database that correspond to the image files stored in the image storage back end)</li>
-<li>registry.log -glance-registry utility log file(used to configure the Glance installation, particularly to set up the database)</li>
-<li>scrubber.log -glance-scrubber utility log file(used to clean up images that have been deleted)</li>
+<li><b>api.log</b> -API service log file (handles all requests for the Glance service such as any request for access or modify an existing image or to create a new image)</li>
+<li><b>manage.log</b> -glance-manage utility log file(manages the registry or catalog of available images and mappings between the entries in the database that correspond to the image files stored in the image storage back end)</li>
+<li><b>registry.log</b> -glance-registry utility log file(used to configure the Glance installation, particularly to set up the database)</li>
+<li><b>scrubber.log</b> -glance-scrubber utility log file(used to clean up images that have been deleted)</li>
