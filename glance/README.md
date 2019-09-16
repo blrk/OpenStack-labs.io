@@ -48,7 +48,7 @@ Design Principles
 <li>Recoverable: Failures should be easy to diagnose, debug, and rectify</li>
 <li>Open standards: Be a reference implementation for a community-driven api</li>
 <div align="right">
-<a href="https://docs.openstack.org/glance/latest/">For more info visit here (About Glance)</a>
+<a href="https://docs.openstack.org/glance/latest/">For more info visit here (About Glance)</a><br>
 <a href="https://docs.openstack.org/newton/install-guide-rdo/common/get-started-image-service.html">For more info Visit here (Image service overview) </a>
 </div>
 
