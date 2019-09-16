@@ -11,3 +11,17 @@ Images
 <li>simple filesystems</li>
 <li>object-storage systems like the OpenStack Swift project</li>
 
+Metadata Definitions
+------------------------
+<li>Glance hosts a metadefs catalog</li>
+<li>provides a way to programmatically determine various metadata key names and valid values that can be applied to OpenStack resources</li>
+
+Design Principles
+-----------------
+<b>all OpenStack projects, is written with the following design guidelines in mind</b>
+<li>Component based architecture: Quickly add new behaviors</li>
+<li>Highly available: Scale to very serious workloads</li>
+<li>Fault tolerant: Isolated processes avoid cascading failures</li>
+<li>Recoverable: Failures should be easy to diagnose, debug, and rectify<li>
+<li>Open standards: Be a reference implementation for a community-driven api</li>
+
