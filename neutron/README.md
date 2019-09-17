@@ -8,5 +8,8 @@ Software Defined Networks in OpenStack
 <li>Nova project - basic way of networking (nova-network)</li>
 <li>neutron -- plug-in based architecture to allow it to be extensible</li>
 <li>provides layer 2 and layer 3 networking for an OpenStack cloud</li>
+<div align="right">
+  <a href="https://docs.openstack.org/neutron/pike/configuration/">Various neutron configuration options click here...</a>
+</div>
 
 
