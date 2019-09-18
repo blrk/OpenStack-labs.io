@@ -3,7 +3,7 @@ How to acess CSE-KITS OpenStack Cloud
 <b>There are two ways to acess http://cloud.csekits.edu/</b>
 <li>Access using GUI(Dahboard-Horizon)</li>
 <li>Access using command line interface(CLI)</li>
-<li>Note:Don't use the url that is not registered in the KITS dns server</li>
+<li> <span style="color: #ff0000">Note:Don't use the url that is not registered in the KITS dns server</span></li>
 
 Access using GUI(Dahboard-Horizon)
 -----------------------------------
