@@ -17,7 +17,10 @@ Access using GUI(Dahboard-Horizon)
 Access using command line interface(CLI)
 ------------------------------------------
 <li><b>For windows Users</b></li>
-<li>Download putty from this link</li> <a href="http://ctc.karunya.edu/node/3">Download Putty here</a>
+<li>Download putty from this link</li> 
+<div align="right">
+<a href="http://ctc.karunya.edu/node/3">Download Putty here</a>
+</div>
 <li>Log into code.karunya.edu > provide your credentials to login</li>
 <li>After login use the following commands</li>
 <pre>
