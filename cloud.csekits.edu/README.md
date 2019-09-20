@@ -80,7 +80,7 @@ Last login: Fri Sep 20 01:16:26 2019 from 192.168.2.88
 tux@OpenStack:~$ 
 </pre>
 
-<li>Enjoy using OpenStack!!!!!</li>
+<li>Enjoy using OpenStack!!!!!</li><br><br>
 
 <i>Managed by <br>
 Novell Center of Excellecne for Cloud Computing, CSE III Floor, KITS</i>
