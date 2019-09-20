@@ -82,5 +82,6 @@ tux@OpenStack:~$
 
 <li>Enjoy using OpenStack!!!!!</li>
 
-Novell Center of Excellecne for Cloud Computing, CSE III Floor, KITS
+<i>Managed by <br>
+Novell Center of Excellecne for Cloud Computing, CSE III Floor, KITS</i>
 
