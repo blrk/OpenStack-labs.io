@@ -17,4 +17,13 @@ Software Defined Networks in OpenStack
   <a href="https://www.geeksforgeeks.org/network-address-translation-nat/">SNAT and DNAT? click here ...</a>
 </div>
 
+OpenStack Security Groups
+---------------------------
+<li>firewall rules</li>
+<li>allow ingress or egress traffic</li>
+<li>applied to projects</li>
+<li>quota - resrict the creation of more number of rules</li>
+<ii>Following image Shows how ingress gress associated with VMs</li>
+<img src=""/>
+
 
