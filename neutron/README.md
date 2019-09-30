@@ -23,7 +23,7 @@ OpenStack Security Groups
 <li>allow ingress or egress traffic</li>
 <li>applied to projects</li>
 <li>quota - resrict the creation of more number of rules</li>
-<li>Following image Shows how ingress gress associated with VMs</li>
-<img src="https://github.com/blrk/OpenStack-labs.io/blob/master/neutron/img/ingress-egress.png" height="400" width="450"/>
+<li>Following image Shows how ingress egress associated with VMs</li>
+<img src="https://github.com/blrk/OpenStack-labs.io/blob/master/neutron/img/ingress-egress.png" height="400" width="500"/>
 
 
