@@ -27,9 +27,22 @@ OpenStack Security Groups
 <li>Following image Shows how ingress egress associated with VMs</li>
 <img src="https://github.com/blrk/OpenStack-labs.io/blob/master/neutron/img/ingress-egress.png" height="400" width="500"/>
 <div align="center">
-  <a href="https://medium.com/google-cloud/why-ingress-traffic-to-the-cloud-is-free-79dc217b916">Reference link</a>
+  <a href="https://medium.com/google-cloud/why-ingress-traffic-to-the-cloud-is-free-79dc217b916">Reference --ingress & egress</a>
 </div>
-  
+
+Neutron Configuration Commands
+-----------------------------------
+<li>View the existing private networks</li>
+<pre>
+tux@OpenStack:~$ openstack network list
++--------------------------------------+---------+----------------------------------------------------------------------------+
+| ID                                   | Name    | Subnets                                                                    |
++--------------------------------------+---------+----------------------------------------------------------------------------+
+| 2924b13a-923f-4def-a2a5-00359389926f | shared  | 2f9465b1-b844-4945-aca9-9d143994ff34                                       |
+| 4d38b744-bdbc-4d4d-a526-963007fb4f0a | private | 2ab02cbc-d360-474c-813c-d70a4cb48f78, 7dd8ff73-feaa-4554-a96f-a34312488169 |
+| d1e7fac7-018e-4079-960e-de9b6016c108 | public  | 2982866b-ef6d-4c54-9c75-db976c0d011f, b676dc5c-0515-4ac2-b12b-384341381cff |
++--------------------------------------+---------+----------------------------------------------------------------------------+
+</pre>
 
 
 
