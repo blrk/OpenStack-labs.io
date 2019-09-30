@@ -25,5 +25,10 @@ OpenStack Security Groups
 <li>quota - resrict the creation of more number of rules</li>
 <li>Following image Shows how ingress egress associated with VMs</li>
 <img src="https://github.com/blrk/OpenStack-labs.io/blob/master/neutron/img/ingress-egress.png" height="400" width="500"/>
+<div align="center">
+  <a href="https://medium.com/google-cloud/why-ingress-traffic-to-the-cloud-is-free-79dc217b916">Reference link</a>
+</div>
+  
+
 
 
