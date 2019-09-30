@@ -43,6 +43,41 @@ tux@OpenStack:~$ openstack network list
 | d1e7fac7-018e-4079-960e-de9b6016c108 | public  | 2982866b-ef6d-4c54-9c75-db976c0d011f, b676dc5c-0515-4ac2-b12b-384341381cff |
 +--------------------------------------+---------+----------------------------------------------------------------------------+
 </pre>
-
+<li>Create a private network</li>
+<pre>
+tux@OpenStack:~$ openstack network create --description "gaming 1738 nwtwork" gaming1738-net
++---------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Field                     | Value                                                                                                                                                                                       |
++---------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| admin_state_up            | UP                                                                                                                                                                                          |
+| availability_zone_hints   |                                                                                                                                                                                             |
+| availability_zones        |                                                                                                                                                                                             |
+| created_at                | 2019-09-30T08:33:51Z                                                                                                                                                                        |
+| description               | gaming 1738 nwtwork                                                                                                                                                                         |
+| dns_domain                | None                                                                                                                                                                                        |
+| id                        | d542eccc-069c-4550-b2c0-987e8f42fe94                                                                                                                                                        |
+| ipv4_address_scope        | None                                                                                                                                                                                        |
+| ipv6_address_scope        | None                                                                                                                                                                                        |
+| is_default                | False                                                                                                                                                                                       |
+| is_vlan_transparent       | None                                                                                                                                                                                        |
+| location                  | Munch({'project': Munch({'domain_id': 'default', 'id': u'5a3a3f4958ad460f8afd065bb37f8a94', 'name': 'admin', 'domain_name': None}), 'cloud': '', 'region_name': 'RegionOne', 'zone': None}) |
+| mtu                       | 1450                                                                                                                                                                                        |
+| name                      | gaming1738-net                                                                                                                                                                              |
+| port_security_enabled     | True                                                                                                                                                                                        |
+| project_id                | 5a3a3f4958ad460f8afd065bb37f8a94                                                                                                                                                            |
+| provider:network_type     | vxlan                                                                                                                                                                                       |
+| provider:physical_network | None                                                                                                                                                                                        |
+| provider:segmentation_id  | 31                                                                                                                                                                                          |
+| qos_policy_id             | None                                                                                                                                                                                        |
+| revision_number           | 1                                                                                                                                                                                           |
+| router:external           | Internal                                                                                                                                                                                    |
+| segments                  | None                                                                                                                                                                                        |
+| shared                    | False                                                                                                                                                                                       |
+| status                    | ACTIVE                                                                                                                                                                                      |
+| subnets                   |                                                                                                                                                                                             |
+| tags                      |                                                                                                                                                                                             |
+| updated_at                | 2019-09-30T08:33:51Z                                                                                                                                                                        |
++---------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+</pre>
 
 
