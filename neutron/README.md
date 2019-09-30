@@ -24,6 +24,6 @@ OpenStack Security Groups
 <li>applied to projects</li>
 <li>quota - resrict the creation of more number of rules</li>
 <ii>Following image Shows how ingress gress associated with VMs</li>
-<img src=""/>
+<img src="https://github.com/blrk/OpenStack-labs.io/blob/master/neutron/img/ingress-egress.png"/>
 
 
