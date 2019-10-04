@@ -159,3 +159,8 @@ tux@OpenStack:~$ openstack subnet list --ip-version 4
 | b676dc5c-0515-4ac2-b12b-384341381cff | public-subnet  | d1e7fac7-018e-4079-960e-de9b6016c108 | 172.24.4.0/24    |
 +--------------------------------------+----------------+--------------------------------------+------------------+
 </pre>
+
+Creating a Virtual Router
+----------------------------
+<li><b>Note:</b> Creating a virtual router has a dependency<li>
+<li><b>Dependency > </b> network and subnet must be created before creating a project</li>
