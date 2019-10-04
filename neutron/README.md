@@ -223,4 +223,4 @@ tux@OpenStack:~$ openstack router show rgaming1738-dev | grep external
 </pre>
 
 <li> After creating the router and assigning a external gateway your project network look like this</li>
-<img height=400 width=600 src="https://github.com/blrk/OpenStack-labs.io/blob/master/neutron/img/router-and-net.png"/>
+<img height=600 width=800 src="https://github.com/blrk/OpenStack-labs.io/blob/master/neutron/img/router-and-net.png"/>
