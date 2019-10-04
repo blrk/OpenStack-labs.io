@@ -11,5 +11,9 @@ Working with domains
 -------------------------
 <li> <a href="https://github.com/blrk/OpenStack-labs.io/blob/master/domain.md">How to use OpenStack domains</a> </li>
 
+Working with project, user, group and roles
+-------------------------
+<li> <a href="https://github.com/blrk/OpenStack-labs.io/blob/master/project-user-role.md">How to use OpenStack project, users, groups and roles</a> </li>
+
 
 
