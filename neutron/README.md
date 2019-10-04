@@ -102,7 +102,7 @@ tux@OpenStack:~$ openstack subnet list --ip-version 4
 | b676dc5c-0515-4ac2-b12b-384341381cff | public-subnet  | d1e7fac7-018e-4079-960e-de9b6016c108 | 172.24.4.0/24    |
 +--------------------------------------+----------------+--------------------------------------+------------------+
 </pre>
-<li>create a sunet </li>
+<li>create a subnet </li>
 <li> Note: subnets are part of a network with some ip series </li>
 <pre>
 tux@OpenStack:~$ openstack subnet create --description "gaming developer network" --network  gnet-1738 --allocation-pool start=10.0.0.10,end=10.0.0.100 --gateway 10.0.0.1 --dhcp --dns-nameserver 8.8.8.8 --subnet-range 10.0.0.0/24 gnet-1738-dev 
@@ -134,4 +134,16 @@ tux@OpenStack:~$ openstack subnet create --description "gaming developer network
 | updated_at        | 2019-10-04T04:24:44Z                                                                                                                                                                        |
 +-------------------+-----------------------------------------
 </pre>
+<li>list the created subnet</li>
+<pre>
+tux@OpenStack:~$ openstack subnet list --ip-version 4
++--------------------------------------+----------------+--------------------------------------+------------------+
+| ID                                   | Name           | Network                              | Subnet           |
++--------------------------------------+----------------+--------------------------------------+------------------+
+| 2ab02cbc-d360-474c-813c-d70a4cb48f78 | private-subnet | 4d38b744-bdbc-4d4d-a526-963007fb4f0a | 10.0.0.0/26      |
+| 2f9465b1-b844-4945-aca9-9d143994ff34 | shared-subnet  | 2924b13a-923f-4def-a2a5-00359389926f | 192.168.233.0/24 |
+| <span style=background:lightblue>41fb8411-b44e-4b6d-9b3a-0af5fefc3b4f | gnet-1738-dev  | 5e77f038-1eea-4f10-9601-0e82859d60dc | 10.0.0.0/24 </span>      |
+| b676dc5c-0515-4ac2-b12b-384341381cff | public-subnet  | d1e7fac7-018e-4079-960e-de9b6016c108 | 172.24.4.0/24    |
++--------------------------------------+----------------+--------------------------------------+------------------+
 
+</pre>
