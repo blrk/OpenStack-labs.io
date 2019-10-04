@@ -235,4 +235,4 @@ tux@OpenStack:~$ openstack router show rgaming1738-dev | grep subnet
 </pre>
 
 <li> After connecting router  to the subnet your project network look like this</li>
-<img src="https://github.com/blrk/OpenStack-labs.io/blob/master/neutron/img/router-and-net.png"/>
+<img src="https://github.com/blrk/OpenStack-labs.io/blob/master/neutron/img/router-subnet.png"/>
