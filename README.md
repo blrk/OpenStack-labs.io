@@ -4,7 +4,7 @@ OpenStack-labs.io
 
 how to login into the cloud.csekits.edu
 ------------------------------------------
-<li>Login steps for cloud.csekits.edu <a href="">Click Here...</a><li>
+<li>Login steps for cloud.csekits.edu <a href="https://github.com/blrk/OpenStack-labs.io/tree/master/cloud.csekits.edu">Click Here...</a><li>
 
 
 
