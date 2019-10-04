@@ -19,5 +19,13 @@ Working with keys
 -------------------------
 <li> <a href="https://github.com/blrk/OpenStack-labs.io/blob/master/keypairs.md">Create and manage keypairs</a> </li>
 
+Working with images
+-------------------------
+<li> <a href="https://github.com/blrk/OpenStack-labs.io/tree/master/glance">Create and manage images</a> </li>
+
+Working with OpenStack Network
+-------------------------
+<li> <a href="https://github.com/blrk/OpenStack-labs.io/tree/master/neutron">Create and manage network, subnet, router and security groups</a> </li>
+
 
 
