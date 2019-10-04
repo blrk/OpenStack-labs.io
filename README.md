@@ -6,6 +6,7 @@ how to login into the cloud.csekits.edu
 ------------------------------------------
 <li>Login steps for cloud.csekits.edu <a href="https://github.com/blrk/OpenStack-labs.io/tree/master/cloud.csekits.edu">Click Here...</a></li>
 <li>No Access to the above cloud then how to setup a test cloud envionment <a href="https://www.youtube.com/playlist?list=PL_L7Fmo4uJiPE4lpDCUx0M9i1ZHEQ8eb5">Click Here...</a></li>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rhdm8CSc9dA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Working with domains
 -------------------------
