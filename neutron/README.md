@@ -164,3 +164,9 @@ Creating a Virtual Router
 ----------------------------
 <li><b>Note:</b> Creating a virtual router has a dependency<li>
 <li><b>Dependency > </b> network and subnet must be created before creating a project</li>
+
+<li>list the router</li>
+<pre>
+tux@OpenStack:~$ openstack router list --project gaming1738
+Note: Nothing will be listed beacuse no router has been create for the project gaming1738
+</pre>
