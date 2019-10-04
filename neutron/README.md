@@ -224,3 +224,15 @@ tux@OpenStack:~$ openstack router show rgaming1738-dev | grep external
 
 <li> After creating the router and assigning a external gateway your project network look like this</li>
 <img src="https://github.com/blrk/OpenStack-labs.io/blob/master/neutron/img/router-and-net.png"/>
+
+<li>connect the router to the subnet</li>
+<pre>
+tux@OpenStack:~$ openstack router add subnet rgaming1738-dev gnet-1738-dev
+
+tux@OpenStack:~$ openstack router show rgaming1738-dev | grep subnet
+| external_gateway_info   | {"network_id": "d1e7fac7-018e-4079-960e-de9b6016c108", "enable_snat": true, "external_fixed_ips": [{"subnet_id": "b676dc5c-0515-4ac2-b12b-384341381cff", "ip_address": "172.24.4.52"}, {"subnet_id": "2982866b-ef6d-4c54-9c75-db976c0d011f", "ip_address": "2001:db8::13d"}]} |
+| interfaces_info         | [{"subnet_id": "ba3d9635-6199-465b-ba3a-dafade33b74f", "ip_address": "10.0.0.1", "port_id": "6e7a2244-535d-4788-80ed-af93ddc4e6a5"}]                                    
+</pre>
+
+<li> After connecting router  to the subnet your project network look like this</li>
+<img src="https://github.com/blrk/OpenStack-labs.io/blob/master/neutron/img/router-and-net.png"/>
