@@ -221,3 +221,6 @@ tux@OpenStack:~$ openstack router set --external-gateway public rgaming1738-dev
 tux@OpenStack:~$ openstack router show rgaming1738-dev | grep external
 | external_gateway_info   | {"network_id": "d1e7fac7-018e-4079-960e-de9b6016c108", "enable_snat": true, "external_fixed_ips": [{"subnet_id": "b676dc5c-0515-4ac2-b12b-384341381cff", "ip_address": "172.24.4.52"}, {"subnet_id": "2982866b-ef6d-4c54-9c75-db976c0d011f", "ip_address": "2001:db8::13d"}]} |
 </pre>
+
+<li> After creating the router and assigning a external gateway your project network look like this</li>
+<img height=400 width=600 src=""/>
