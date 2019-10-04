@@ -170,3 +170,31 @@ Creating a Virtual Router
 tux@OpenStack:~$ openstack router list --project gaming1738
 Note: Nothing will be listed beacuse no router has been create for the project gaming1738
 </pre>
+
+<li>create a router</li>
+<pre>
+tux@OpenStack:~$ openstack router create --description "gaming 1738 developer router" --project gaming1738 rgaming1738-dev
++-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Field                   | Value                                                                                                                                                                               |
++-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| admin_state_up          | UP                                                                                                                                                                                  |
+| availability_zone_hints |                                                                                                                                                                                     |
+| availability_zones      |                                                                                                                                                                                     |
+| created_at              | 2019-10-04T05:50:41Z                                                                                                                                                                |
+| description             | gaming 1738 developer router                                                                                                                                                        |
+| distributed             | False                                                                                                                                                                               |
+| external_gateway_info   | None                                                                                                                                                                                |
+| flavor_id               | None                                                                                                                                                                                |
+| ha                      | False                                                                                                                                                                               |
+| id                      | 1a1f56d1-b308-4bf4-924f-5660434f2daa                                                                                                                                                |
+| location                | Munch({'project': Munch({'domain_id': None, 'id': u'ecfc023743d04dd2bd89efdf08deea19', 'name': None, 'domain_name': None}), 'cloud': '', 'region_name': 'RegionOne', 'zone': None}) |
+| name                    | rgaming1738-dev                                                                                                                                                                     |
+| project_id              | ecfc023743d04dd2bd89efdf08deea19                                                                                                                                                    |
+| revision_number         | 1                                                                                                                                                                                   |
+| routes                  |                                                                                                                                                                                     |
+| status                  | ACTIVE                                                                                                                                                                              |
+| tags                    |                                                                                                                                                                                     |
+| updated_at              | 2019-10-04T05:50:41Z                                                                                                                                                                |
++-------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+</pre>
+
