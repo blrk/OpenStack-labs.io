@@ -15,5 +15,9 @@ Working with project, user, group and roles
 -------------------------
 <li> <a href="https://github.com/blrk/OpenStack-labs.io/blob/master/project-user-role.md">How to use OpenStack project, users, groups and roles</a> </li>
 
+Working with keys
+-------------------------
+<li> <a href="https://github.com/blrk/OpenStack-labs.io/blob/master/keypairs.md">Create and manage keypairs</a> </li>
+
 
 
