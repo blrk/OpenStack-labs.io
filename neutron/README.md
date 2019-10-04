@@ -236,3 +236,13 @@ tux@OpenStack:~$ openstack router show rgaming1738-dev | grep subnet
 
 <li> After connecting router  to the subnet your project network look like this</li>
 <img src="https://github.com/blrk/OpenStack-labs.io/blob/master/neutron/img/router-subnet.png"/>
+
+<li>list the router</li>
+<pre>
+tux@OpenStack:~$ openstack router list --project gaming1738
++--------------------------------------+-----------------+--------+-------+----------------------------------+-------------+-------+
+| ID                                   | Name            | Status | State | Project                          | Distributed | HA    |
++--------------------------------------+-----------------+--------+-------+----------------------------------+-------------+-------+
+| 1a1f56d1-b308-4bf4-924f-5660434f2daa | rgaming1738-dev | ACTIVE | UP    | ecfc023743d04dd2bd89efdf08deea19 | False       | False |
++--------------------------------------+-----------------+--------+-------+----------------------------------+-------------+-------+
+</pre>
