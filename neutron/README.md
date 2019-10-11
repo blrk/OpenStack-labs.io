@@ -32,7 +32,7 @@ OpenStack Security Groups
 
 Neutron Configuration Commands
 -----------------------------------
-<li><b>Ensure that you looged in as project admin "gaming" then cotinue to do the following <b> </li>
+<li><b color=red>Note: Ensure that you looged in as project admin "gaming" then cotinue to do the following <b> </li>
 <li>View the existing private networks</li>
 <pre>
 tux@OpenStack:~$ openstack network list
