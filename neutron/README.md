@@ -250,10 +250,18 @@ tux@OpenStack:~$ openstack router list --project gaming1738
 
 Allocate External IP Addresses To a Project
 ---------------------------------------------------
+
 <ul>Create Floating ip using GUI do the following steps</ul>
 <li>Project > Network > Floating IPs</li>
 <li>click Allocate IP to Project</li>
 <li>On the Allocate IP to Project screen, from the pool drop down list, select floating</li>
 <li>Click Allocate</li>
 
- 
+<ul>Create Floating ip using CLI</ul>
+<pre>
+openstack floating ip create floating
+</pre>
+<pre>
+openstack floating ip list
+</pre>
+
