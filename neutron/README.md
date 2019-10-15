@@ -32,7 +32,7 @@ OpenStack Security Groups
 
 Neutron Configuration Commands
 -----------------------------------
-<li><b color=red>Note: Ensure that you logged in as project admin user in the project "gaming" then cotinue to do the following <b> </li>
+<li><b color=red>Note: Ensure that you logged in as project admin user in the project "gaming" then cotinue to do the following </b> </li>
 <li>View the existing private networks</li>
 <pre>
 tux@OpenStack:~$ openstack network list
@@ -265,3 +265,70 @@ openstack floating ip create floating
 openstack floating ip list
 </pre>
 
+Create a Security Group For ICMP, SSH and Web Traffic
+-----------------------------------------
+<li>Create a security group</li>
+<pre>
+openstack security group create \
+--description "Rules for Gaming Traffic" gaming1738-Rules
+</pre>
+<li>List the security group</li>
+<pre>
+openstack security group list
+</pre>
+<li>Add the rules</li>
+<pre>
+openstack security group rule create --ingress \
+--protocol icmp gaming1738-Rules
+</pre>
+<li>display the security group </li>
+<pre>
+openstack security group show gaming-1738-Rules
+</pre>
+
+SSH traffic
+
+<pre>
+openstack security group create \
+--description "Rules for SSH Traffic" gaming1738-SSH-Rules
+</pre>
+<pre>
+openstack security rule create \
+--ingress --protocol tcp \
+--dst-port 22 \
+gaming1738-SSH-Rules
+</pre>
+
+Web Traffic 
+
+<pre>
+openstack security group create \
+--description "Rules for Web Traffic" gaming1738-Web-Rules
+</pre>
+<pre>
+openstack security group rule create \
+--ingress \
+--protocol tcp \
+--dst-port 80 \
+gaming1738-Web-Rules
+
+openstack security group rule create \
+--ingress \
+--protocol tcp \
+--dst-port 443 \
+gaming1738-Web-Rules
+</pre>
+
+Manage Network Quotas For a Project
+-------------------------------------------
+<pre>
+openstack quota show gaming1738
+</pre>
+
+<pre>
+openstack quota set \
+--networks 5 \
+--routers 5 \
+--subnets 5 \
+gaming1738
+</pre>
