@@ -84,7 +84,7 @@ Suspend and resume an instance
 <li>To initiate a hypervisor-level suspend operation, run the following command</li>
 <pre>
 $ openstack server suspend vm02
-<pre>
+</pre>
 <li>To resume a suspended instance, run the following command</li>
 <pre>
 $ openstack server resume vm02
